@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 10px 50px;
+    box-sizing: border-box;
+    background: rgba(217, 217, 217, 0.6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    padding: 10px 2px;
+    width: 50px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.right-navbar{
+    margin-left: auto;
+}
+
+.left-navbar{
+    margin-right: auto;
+}
+
+.left-navbar-item{
+    line-height: 80px;
+    color: black;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.left-navbar-item:hover{
+    background-color: rgba(255, 255, 255, 7);
+    border-radius: 10px;
+}
+
+button{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+.play{
+    background-color: #EA838B;
+}
+
+.sign{
+    background-color: #958D8E;
+}
+
+.right-navbar-item{
+    line-height: 30px;
+    color: black;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+body{ 
+    width: 100%;
+    height: 100vh;
+    background: url('Asphal web/Esport/wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.video-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding-top: 50px; 
+}
+
+.class {
+    padding: 10px 20px 20px;
+
+}
+.type {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: white;
+}
+.class-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.class-item {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 23%;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.class-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.class-item .car-name {
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.headline {
+    width: 100%;
+    text-align: center;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.stat {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.stat .icon {
+    margin-bottom: 10px;
+}
+
+.stat h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.stat p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sponsor-headline{
+    width: 100%;
+    text-align: center;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.sponsor-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.sponsor-name{
+    color: #FFFFFF;
+}
